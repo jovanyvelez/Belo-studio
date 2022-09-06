@@ -1,23 +1,23 @@
-<div class="flex justify-center bg-gradient-to-t from-red-50 to-red-100 mt-5 mx-12">
+<div class="border-1 flex justify-center bg-gradient-to-t from-gray-50 to-gray-500 mt-5 mx-6">
     <div class="mx-1">
         <span class="font-extrabold mx-auto">Logo</span>
         <br>
-        <p>
-           Lorem ipsum, dolor sit amet consectetur.
+        <p class="mx-1">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, commodi!
         </p>
     </div>
     <div class="mx-2">
         <span class="font-extrabold ">Direccion</span>
         <br>
-        <p>
-           Lorem ipsum, dolor sit amet consectetur.
+        <p class="mx-1">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, nihil?
         </p>
     </div>
     <div class="mx-1">
         <span class="font-extrabold ">Contacto</span>
         <br>
-        <p>
-           Lorem ipsum, dolor sit amet consectetur.
+        <p class="mx-1">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, voluptas.
         </p>
     </div>
 </div>

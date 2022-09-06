@@ -8,8 +8,10 @@ import Footer from "../components/Footer.svelte";
 
 </script>
 
+<div class="relative">
 <Seccion1/>
 <Seccion2 />
 <Seccion3 />
 <Seccion4 />
 <Footer />
+</div>

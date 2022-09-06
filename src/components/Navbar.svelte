@@ -1,7 +1,7 @@
 <script>
-	import src from '../apple.svg'
-	let buttonMenu = false;
-	let showClass = '';
+	import src from '../logo.png'
+	let buttonMenu = true;
+	let showClass = 'hidden';
 	let margin = 0;
 	const buttonToggle = () => {
 		buttonMenu = !buttonMenu;
@@ -13,7 +13,7 @@
 
 <!--********************Inicia la interfaz-->
 
-<nav class="bg-gradient-to-t from-red-300 to-red-800">
+<nav class="bg-gradient-to-t from-gray-50 to-gray-800">
 	<div class="mx-auto px-8">
 		<div class="flex justify-between">
 			<!--Block Logo + primary nav-->
@@ -21,8 +21,7 @@
 				<!--logo-->
 				<div>
 					<a class="flex items-center py-5 px-3 text-red-800 hover:text-blue-600" href="/">
-						<img {src} class="mr-3 h-14 w-14" alt="Logo" />
-						<span class=" text-4xl font-bold">Studio</span>
+						<img {src} class="mr-3 h-36 w-36" alt="Logo" />
 					</a>
 				</div>
 				<!--fin logo-->

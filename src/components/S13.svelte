@@ -3,7 +3,7 @@
     <div>
         <img src="https://ik.imagekit.io/velez/model5.jpg" alt="RedModel" class="rounded-xl">        
     </div>
-    <div class="flex flex-col items-center justify-center bg-red-50">
+    <div class="flex flex-col items-center justify-center bg-gradient-to-l from-gray-50 to-gray-700">
         <h1 class="mt-2 text-2xl sm:text-4xl text-red-600 font-semibold ">Nosotros</h1>
         <p class="text-sm sm:text-3xl mt-2 px-1 text-red-600 sm:mx-10">Lorem ipsum dolor sit amet consectetur adip isicing elit. Sunt velit adipisci veniam magni odio saepe est repudiandae ad ipsam. </p>
         <a
