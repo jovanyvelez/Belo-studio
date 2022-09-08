@@ -1,7 +1,7 @@
 
 <div class="flex justify-center my-5 mx-6">
     <div>
-        <img src="https://ik.imagekit.io/velez/model5.jpg" alt="RedModel" class="rounded-xl">        
+        <img src="https://ik.imagekit.io/velez/model6.png" alt="RedModel" class="rounded-xl">        
     </div>
     <div class="flex flex-col items-center justify-center bg-gradient-to-l from-gray-50 to-gray-700">
         <h1 class="mt-2 text-2xl sm:text-4xl text-red-600 font-semibold ">Nosotros</h1>

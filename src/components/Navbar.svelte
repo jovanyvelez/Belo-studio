@@ -14,19 +14,23 @@
 <!--********************Inicia la interfaz-->
 
 <nav class="bg-gradient-to-t from-gray-50 to-gray-800">
-	<div class="mx-auto px-8">
+	<div class="mx-auto px-8 py-1">
 		<div class="flex justify-between">
 			<!--Block Logo + primary nav-->
 			<div class="flex space-x-4">
 				<!--logo-->
-				<div>
-					<a class="flex items-center py-5 px-3 text-red-800 hover:text-blue-600" href="/">
-						<img {src} class="mr-3 h-36 w-36" alt="Logo" />
-					</a>
+				<div class="flex items-center py-1">
+					<div class="h-9 w-9 sm:h-12 sm:w-12 bg-red-400 flex justify-center items-center">
+						<h3 class="text-white text-xl sm:text-2xl">M</h3>
+					</div>
+					<div class="h-9 w-9 sm:h-12 sm:w-12 bg-red-400/50 flex justify-center items-center">
+						<h3 class="text-white text-xl sm:text-2xl">Y</h3>
+					</div>
+					<div class="ml-3 text-xl sm:text-2xl font-bold">Studio</div>
 				</div>
 				<!--fin logo-->
 
-				<!--Primary nav-->
+				<!--Primary nav
 				<div class="hidden md:flex items-center space-x-2 text-xl font-bold">
 					<a class="py-5 px-3 text-slate-200 hover:text-red-900 transition duration-300" href="/">Inicio</a>
 					<a class="py-5 px-3 text-slate-200 hover:text-red-900 transition duration-300" href="/">Trabaja con nosotros</a>
@@ -37,7 +41,11 @@
 
 			<!--secundary nav-->
 			<div class="hidden md:flex items-center space-x-2 text-xl">
-				<a class="text-slate-200 py-5 px-5 hover:text-red-900 font-bold" href="/">Opciones</a>
+				<a class="py-5 px-3 text-slate-200 hover:text-red-900 transition duration-300" href="/">Quienes somos</a>
+				<a class="py-5 px-3 text-slate-200 hover:text-red-900 transition duration-300" href="/">Trabaja con nosotros</a>
+				<a class="py-5 px-3 text-slate-200 hover:text-red-900 transition duration-300" href="/">Porcentaje</a>
+					<a class="py-5 px-3 text-slate-200 hover:text-red-900 transition duration-300" href="/">Horarios</a>
+				<!--a class="text-slate-200 py-5 px-5 hover:text-red-900 font-bold" href="/">Opciones</a>
 				<!--a class="py-2 px-3 bg-blue-600 text- rounded hover:bg-violet-500 hover:text-black transition duration-300" href="https://engine.lobbypms.com/botanico-hotel-boutique" target="_blank">Reservas</a-->
 			</div>
 
@@ -61,10 +69,9 @@
 		</div>
 	</div>
 	<div class=" {showClass} md:hidden text-xl font-bold">
-		<a on:click={buttonToggle} class="block py-1 px-3 text-sm hover:bg-blue-500" href="/">Inicio</a>
-		<a on:click={buttonToggle} class="block py-1 px-3 text-sm hover:bg-blue-500" href="/">Nosotros</a>
+		<a on:click={buttonToggle} class="block py-1 px-3 text-sm hover:bg-blue-500" href="/">Quienes somos</a>
 		<a on:click={buttonToggle} class="block py-1 px-3 text-sm hover:bg-blue-500" href="/">Trabaja con nosotros</a>
-		<a on:click={buttonToggle} class="block py-1 px-3 text-sm hover:bg-blue-500" href="/" >Galeria</a>
-		<a on:click={buttonToggle} class="block py-1 px-3 text-sm hover:bg-blue-500" href="/">Otros</a>
+		<a on:click={buttonToggle} class="block py-1 px-3 text-sm hover:bg-blue-500" href="/">Porcentaje</a>
+		<a on:click={buttonToggle} class="block py-1 px-3 text-sm hover:bg-blue-500" href="/" >Horario</a>
 	</div>
 </nav>
