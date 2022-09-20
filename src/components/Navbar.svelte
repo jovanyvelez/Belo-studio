@@ -13,7 +13,7 @@
 
 <!--********************Inicia la interfaz-->
 
-<nav class="bg-gradient-to-t from-gray-50 to-gray-800">
+<nav class="bg-gradient-to-t from-gray-50 to-gray-600">
 	<div class="mx-auto px-8 py-1">
 		<div class="flex justify-between">
 			<!--Block Logo + primary nav-->
@@ -21,12 +21,12 @@
 				<!--logo-->
 				<div class="flex items-center py-1">
 					<div class="h-9 w-9 sm:h-12 sm:w-12 bg-red-400 flex justify-center items-center">
-						<h3 class="text-white text-xl sm:text-2xl">M</h3>
+						<h3 class="text-white text-xl sm:text-2xl font-extrabold">M</h3>
 					</div>
 					<div class="h-9 w-9 sm:h-12 sm:w-12 bg-red-400/50 flex justify-center items-center">
-						<h3 class="text-white text-xl sm:text-2xl">Y</h3>
+						<h3 class="text-white text-xl sm:text-2xl font-extrabold">Y</h3>
 					</div>
-					<div class="ml-3 text-xl sm:text-2xl font-bold">Studio</div>
+					<div class="ml-3 text-xl  sm:text-xl font-bold">Studio's</div>
 				</div>
 				<!--fin logo-->
 
@@ -40,11 +40,11 @@
 			<!--End block logo + primary nav-->
 
 			<!--secundary nav-->
-			<div class="hidden md:flex items-center space-x-2 text-xl">
-				<a class="py-5 px-3 text-slate-200 hover:text-red-900 transition duration-300" href="/">Quienes somos</a>
-				<a class="py-5 px-3 text-slate-200 hover:text-red-900 transition duration-300" href="/">Trabaja con nosotros</a>
-				<a class="py-5 px-3 text-slate-200 hover:text-red-900 transition duration-300" href="/">Porcentaje</a>
-					<a class="py-5 px-3 text-slate-200 hover:text-red-900 transition duration-300" href="/">Horarios</a>
+			<div class="hidden md:flex items-center space-x-2 sm:text-sm lg:text-xl">
+				<a class="py-5 px-3  hover:text-slate-200 transition duration-300" href="/">Quienes somos</a>
+				<a class="py-5 px-3  hover:text-slate-200 transition duration-300" href="/">Trabaja con nosotros</a>
+				<a class="py-5 px-3  hover:text-slate-200 transition duration-300" href="/">Porcentaje</a>
+					<a class="py-5 px-3 hover:text-slate-200 transition duration-300" href="/">Horarios</a>
 				<!--a class="text-slate-200 py-5 px-5 hover:text-red-900 font-bold" href="/">Opciones</a>
 				<!--a class="py-2 px-3 bg-blue-600 text- rounded hover:bg-violet-500 hover:text-black transition duration-300" href="https://engine.lobbypms.com/botanico-hotel-boutique" target="_blank">Reservas</a-->
 			</div>

@@ -3,8 +3,6 @@
 @tailwind utilities;
 
 
-body {
-  position: relative;
-  background-image: url('marmol.jpeg');
+body{
+   background-image: url('./marmol.jpg');
 }
-
